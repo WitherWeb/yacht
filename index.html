@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Your Yacht</title>
+  <link rel="preload" href="fonts/Releway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Releway-Bolditalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Releway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/just-validate.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+    <div class="dark-bg"></div>
+  <div class="site-container">
+    <main class="main">
+      <section class="hero">
+  <header class="header">
+  <div class="container">
+    <div class="header-navigation">
+      <img src="./img/logo.webp" alt="Логитип сайта Your Yecht" class="logo">
+      <nav class="menu" data-menu>
+        <ul class="menu__list list-reset">
+          <ul class="menu__list-left list-reset">
+            <li class="menu__item"><a href="#about" class="menu__link" data-menu-item>About us</a></li>
+            <li class="menu__item"><a href="#service" class="menu__link" data-menu-item>Our services</a></li>
+          </ul>
+          <ul class="menu__list-right list-reset">
+            <li class="menu__item"><a href="#contacts" class="menu__link" data-menu-item>Contacts</a></li>
+          </ul>
+        </ul>
+      </nav>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <h1 class="hero__title">Your <span class="font-italic">yachting</span> experience
+      as a turnover project.</h1>
+    <a href="#about">
+      <svg class="hero__scroll-down" width="25" height="53" viewBox="0 0 25 53" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M12.4943 0.501343C12.3673 0.501343 12.2408 0.544274 12.1134 0.673074L8.9381 3.67883C8.38829 4.19399 9.19208 5.05314 9.70006 4.53746L11.9445 2.39037V3.50658C11.9445 4.27935 13.0874 4.27935 13.0874 3.50658V2.39037L15.2891 4.53746C15.839 5.05263 16.6442 4.19401 16.0506 3.67883L12.8753 0.673074C12.7907 0.544282 12.6214 0.501343 12.4944 0.501343H12.4943ZM12.4943 5.48243C11.9017 5.48243 11.3937 5.9976 11.3937 6.59865C11.3937 7.24262 11.9017 7.71486 12.4943 7.71486C13.1293 7.71486 13.6373 7.24262 13.6373 6.59865C13.6373 5.99761 13.1293 5.48243 12.4943 5.48243ZM12.4943 6.59914H12.5372C12.5372 6.64208 12.4943 6.64208 12.4943 6.64208V6.59914ZM15.7119 8.53103C15.5426 8.53103 15.4156 8.61689 15.2886 8.70276L13.0869 10.8499V9.69071C13.0869 9.39019 12.8329 9.1326 12.4933 9.1326C12.197 9.1326 11.9435 9.39019 11.9435 9.69071V10.8499L9.74175 8.70276C9.61427 8.6169 9.44543 8.53103 9.31746 8.57397C8.8095 8.57397 8.5555 9.21794 8.93649 9.56139L12.1117 12.5671C12.3244 12.7818 12.662 12.7818 12.8737 12.5671L16.049 9.56139C16.4737 9.21844 16.2198 8.57397 15.7118 8.53104L15.7119 8.53103ZM12.3673 14.0702C5.59291 14.0702 0.0890331 19.6094 0.0890331 26.5227V39.5758C0.0890331 46.4468 5.59404 52.0283 12.3673 52.0283H12.6636C19.4385 52.0283 24.9419 46.4462 24.9419 39.5758V26.5227C24.9419 19.6092 19.4379 14.0702 12.6636 14.0702H12.3673ZM11.944 15.2298V17.8491C10.7164 18.1067 9.74228 19.2235 9.74228 20.5543V24.4186C9.74228 25.7495 10.7159 26.8661 11.944 27.1238V30.1723C11.944 30.9451 13.0869 30.9451 13.0869 30.1723V27.1238C14.314 26.8662 15.2463 25.7495 15.2463 24.4186V20.5543C15.2463 19.2235 14.315 18.1068 13.0869 17.8491V15.2298C19.0565 15.4445 23.7986 20.3826 23.7986 26.5227V39.5758C23.7986 45.8457 18.845 50.8687 12.6637 50.8687H12.3674C6.18606 50.8687 1.23246 45.8448 1.23246 39.5758V26.5227C1.23246 20.3826 5.97449 15.4444 11.9441 15.2298H11.944ZM12.4943 18.9225H12.5371C13.4261 18.9225 14.1462 19.6523 14.1462 20.5544V24.4187C14.1462 25.3203 13.4256 26.0507 12.5371 26.0507H12.4943C11.6054 26.0507 10.8862 25.3208 10.8862 24.4187V20.5544C10.8852 19.6529 11.6053 18.9225 12.4943 18.9225Z"
+          fill="white" />
+      </svg>
+    </a>
+    <div class="hero__swiper-container">
+      <div class="swiper hero__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="swiper-slide__img" src="./img/hero-bg__slide-1.webp" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-slide__img" src="./img/hero-bg__slide-2.webp" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-slide__img" src="./img/hero-bg__slide-3.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="hero__swiper-navigation">
+        <div class="swiper-button-next swiper-button-next-hero">
+          <svg width="41" height="8" viewBox="0 0 41 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M40.3536 4.35356C40.5488 4.15829 40.5488 3.84171 40.3536 3.64645L37.1716 0.464469C36.9763 0.269207 36.6597 0.269207 36.4645 0.464469C36.2692 0.659731 36.2692 0.976314 36.4645 1.17158L39.2929 4L36.4645 6.82843C36.2692 7.02369 36.2692 7.34027 36.4645 7.53554C36.6597 7.7308 36.9763 7.7308 37.1716 7.53554L40.3536 4.35356ZM-4.37114e-08 4.5L40 4.5L40 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+              fill="white" />
+          </svg>
+        </div>
+        <div class="swiper-pagination swiper-progressbar-hero"></div>
+        <div class="image-slider__fraction">
+          <div class="image-slider__current">1</div>
+          <div class="image-slider__sepparator">/</div>
+          <div class="image-slider__total">1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="possibility" id="about">
+  <div class="container">
+    <div class="possibility__content">
+      <ul class="possibility__content-card list-reset">
+        <li class="possibility__content-item scroll-item">
+          <img class="possibility__content-img" src="./img/travel.svg" alt="Travel">
+          <h2 class="possibility__content-title">Travel</h2>
+          <p class="possibility__content-subtitle">From luxurious hotels to private islands</p>
+          <p class="possibility__content-text">Apartments, Villas and Private Islands, all at your disposal, from the top destinations in Europe to the Caribbean and LA</p>
+        </li>
+        <li class="possibility__content-item scroll-item">
+          <img class="possibility__content-img" src="./img/yacht.svg" alt="Yacht">
+          <h2 class="possibility__content-title">Yacht</h2>
+          <p class="possibility__content-subtitle">Yachting service full circle</p>
+          <p class="possibility__content-text">Holidays, experiences, City breaks and so much more. For more than 15 years Helentours Concierge Management has been providing clients in business-to-business markets with an exceptional range of travel and concierge services.</p>
+        </li>
+        <li class="possibility__content-item scroll-item">
+          <img class="possibility__content-img" src="./img/event.svg" alt="Event">
+          <h2 class="possibility__content-title">Event</h2>
+          <p class="possibility__content-subtitle">Event management any difficulty</p>
+          <p class="possibility__content-text">Holidays, experiences, City breaks and so much more. For more than 15 years Helentours Concierge Management has been providing clients in business-to-business markets.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="services" id="service">
+  <div class="container">
+    <h2 class="services__title">Our <span class="font-italic">services</span></h2>
+    <p class="services__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id in eu, amet tincidunt
+      ornare at eu. Velit cursus vitae nulla nulla egestas leo. Odio diam tellus neque, convallis commodo sit sit non.
+      Volutpat turpis rhoncus quis tristique. </p>
+  </div>
+  <div class="container services__container">
+    <div class="services__content">
+      <ul class="services__card-list list-reset">
+        <li class="services__card modal-window">
+          <img class="services__card-bg" src="./img/card-1.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">Travel event management</h2>
+            <img class="services__card-img" src="./img/manager icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsum dolo saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Vitae consequatur beatae dignissimos esse? Delectus, ratione itaque quam natus
+            ipsum officia nemo, ducimus vitae dolorem architecto saepe aliquid in quos fugiat.</p>
+        </div>
+        <li class="services__card modal-window">
+          <img class="services__card-bg " src="./img/card-2.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">VIP maintenance</h2>
+            <img class="services__card-img" src="./img/vip icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsuse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus
+            vitae dolorem architecto saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Vitae consequatur beatae dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus
+            vitae dolorem architecto saepe aliquid in quos fugiat.</p>
+        </div>
+        <li class="services__card modal-window">
+          <img class="services__card-bg" src="./img/card-3.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">Transfers </h2>
+            <img class="services__card-img" src="./img/yacht icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur </p>
+        </div>
+        <li class="services__card modal-window">
+          <img class="services__card-bg" src="./img/card-4.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">Management-turnover</h2>
+            <img class="services__card-img" src="./img/management icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+            beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+            beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.</p>
+        </div>
+        <li class="services__card modal-window">
+          <img class="services__card-bg" src="./img/card-5.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">Private rentals & hotel bookings</h2>
+            <img class="services__card-img" src="./img/hotel icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+            beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, pe aliquid in quos fugiat.Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae dignissimos esse? Delectus,
+            ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto saepe aliquid in quos fugiat.
+          </p>
+        </div>
+        <li class="services__card modal-window">
+          <img class="services__card-bg" src="./img/card-6.webp" alt="">
+          <div class="services__card-content">
+            <h2 class="services__card-title">Service</h2>
+            <img class="services__card-img" src="./img/coctail icon.svg" alt="">
+          </div>
+        </li>
+        <div class="services__card-modal">
+          <button class="card-modal__close btn-reset"> </button>
+          <p class="card-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur beatae
+            dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus vitae dolorem architecto
+            saepe aliquid in quos fugiat.L aliquid in quos fugiat.Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Vitae consequatur beatae dignissimos esse? Delectus, ratione itaque quam natus ipsum officia nemo, ducimus
+            vitae dolorem architecto saepe aliquid in quos fugiat.</p>
+        </div>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="questions">
+  <div class="container">
+    <h2 class="questions__title">Have any <span class="font-italic">questions?</span></h2>
+    <form class="questions__form" id="form"  action="#">
+      <label class="form-label">
+        <input tabindex="1" class="questions__input input-reset" type="text" placeholder="Name"
+          data-validate-field="name" id="name" name="name">
+      </label>
+      <label class="form-label">
+        <input tabindex="2" class="questions__input input-reset _req" type="tel" placeholder="Phone number" id="number"
+          name="phone" data-validate-field="tel">
+      </label>
+      <label class="form-label">
+        <input tabindex="3" class="questions__input input-reset _req _email" type="email" placeholder="Email" id="email"
+          name="email" data-validate-field="email">
+      </label>
+      <p class="questions__text">By clicking to the Send button, you agree to the <span class="underline">personal data
+          processing policy</span></p>
+      <button tabindex="4" type="submit" class="questions__submit">send</button>
+      <div class="questions__form-sent">
+        <h2 class="form-sent__title">Спасибо !</h2>
+        <p class="form-sent__text">Ваша заявка принята в обработку. Мы свяжемся с вами в ближайшее время</p>
+        <button class="form-sent__close btn-reset" type="button"></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer" id="contacts">
+  <div class="container">
+    <div class="footer__content">
+      <img src="./img/logo.webp" alt="Логитип сайта Your Yecht" class="footer__logo">
+      <div class="footer__contacts">
+        <a href="tel:000(12)123-45-67" class="footer__contacts-contact footer__text">+000 (12) 123-45-67</a>
+        <a href="mailto:Yacht@gmail.ru" class="footer__contacts-contact footer__text">Yacht@gmail.ru</a>
+      </div>
+      <div class="footer__place">
+        <p class="footer__text">Country, ciry name
+          Street, building number</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </div>
+</body>
+
+</html>
